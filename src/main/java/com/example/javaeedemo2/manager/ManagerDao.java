@@ -1,4 +1,6 @@
-package com.example.javaeedemo2;
+package com.example.javaeedemo2.manager;
+
+import com.example.javaeedemo2.DBUtil;
 
 import java.sql.Connection; // 导入Connection接口，用于管理数据库连接
 import java.sql.PreparedStatement; // 导入PreparedStatement接口，用于执行预编译的SQL语句

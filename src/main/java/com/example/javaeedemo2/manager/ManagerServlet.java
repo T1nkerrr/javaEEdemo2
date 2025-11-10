@@ -1,4 +1,4 @@
-package com.example.javaeedemo2;
+package com.example.javaeedemo2.manager;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.*;
@@ -62,7 +62,7 @@ public class ManagerServlet extends HttpServlet{
                 managerDao.deleteManager(cmId);
             }
             response.sendRedirect("managers");
-            // 重定向到/book：添加/更新/删除图书操作完成后，重定向回图书列表页面防止用户刷新页面时重复执行相同的POST操作
+            // 重定向到/manager：添加/更新/删除操作完成后，重定向回列表页面防止用户刷新页面时重复执行相同的POST操作
         }catch (Exception e){
             throw new ServletException(e);
         }

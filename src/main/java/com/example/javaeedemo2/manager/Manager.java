@@ -1,4 +1,4 @@
-package com.example.javaeedemo2;
+package com.example.javaeedemo2.manager;
 import java.sql.Date;
 
 public class Manager {
